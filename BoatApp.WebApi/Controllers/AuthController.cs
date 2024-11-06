@@ -88,12 +88,7 @@ namespace BoatApp.WebApi.Controllers
             });
         }
 
-        [HttpGet("me")]
-        [Authorize]
-        public IActionResult GetMyUser()
-        {
-            return Ok();
-        }
+        
         
 
     }
