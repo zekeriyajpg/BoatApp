@@ -36,3 +36,18 @@ BoatApp, çeşitli tekne verilerini yöneten ve sunan bir ASP.NET Core Web API p
 - Güvenlik: Kimlik doğrulama ve yetkilendirme işlemleri için JWT (JSON Web Token) kullanılmıştır.
 -  Swagger UI: API endpoint'lerini dokümante etmek için projenizde Swagger etkinleştirilmiştir. Çalıştırıldığında tarayıcıda 
     https://localhost:7012/swagger adresine giderek test edebilirsiniz.
+
+## Katkıda Bulunma
+
+Projeye katkıda bulunmak için aşağıdaki adımları izleyin:
+
+1. Bu repoyu fork edin.
+2. Kendi branch'inizde değişiklik yapın (`git checkout -b feature/ÖzellikAdı`).
+3. Değişiklikleri commitleyin (`git commit -m 'Özellik ekle: ÖzellikAdı'`).
+4. Branch'inizi pushlayın (`git push origin feature/ÖzellikAdı`).
+5. Bir Pull Request açın.
+
+## İletişim
+
+Herhangi bir sorunuz veya öneriniz varsa [LinkedIn](https://www.linkedin.com/in/zekeriya-palabıyık-58a764213/) üzerinden benimle iletişime geçebilirsiniz.
+
