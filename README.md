@@ -1,1 +1,28 @@
 # BoatApp
+
+BoatApp, çeşitli tekne verilerini yöneten ve sunan bir ASP.NET Core Web API projesidir. Bu proje, kullanıcılara tekne özelliklerini görüntüleme, düzenleme, ekleme ve silme gibi CRUD (Create, Read, Update, Delete) işlemlerini yapma imkânı sunar.
+
+## Özellikler
+
+- Tekne verilerini listeleme
+- Yeni tekne ekleme
+- Tekne bilgilerini güncelleme
+- Tekne verilerini silme
+- RESTful API yapısı
+
+## Gereksinimler
+
+- **.NET 8 SDK** veya üstü
+- **SQL Server** (isteğe bağlı, uygulamada veritabanı kullanılıyorsa)
+- **Visual Studio** veya **VS Code** (tercihen)
+
+## Kurulum ve Çalıştırma
+
+1. **Projeyi Klonlayın**:
+   ```bash
+   git clone https://github.com/zekeriyajpg/BoatApp.git
+   cd BoatApp
+2. **Bağımlılıkları Yükleyin Projenin bağımlılıklarını yüklemek için terminalde aşağıdaki komutu çalıştırın:
+
+    ```bash 
+    dotnet restore   
