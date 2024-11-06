@@ -22,7 +22,17 @@ BoatApp, çeşitli tekne verilerini yöneten ve sunan bir ASP.NET Core Web API p
    ```bash
    git clone https://github.com/zekeriyajpg/BoatApp.git
    cd BoatApp
-2. **Bağımlılıkları Yükleyin Projenin bağımlılıklarını yüklemek için terminalde aşağıdaki komutu çalıştırın:
+2. Bağımlılıkları Yükleyin: Projenin bağımlılıklarını yüklemek için terminalde aşağıdaki komutu çalıştırın:
 
     ```bash 
-    dotnet restore   
+    dotnet restore
+3. Uygulamayı Çalıştırın: Projeyi çalıştırmak için aşağıdaki komutu kullanın:
+    ```bash
+    dotnet run --project BoatApp.WebApi
+4. Uygulamayı Test Eddin
+
+   ##Ek Bilgiler
+- Hata Yönetimi: UseExceptionHandler middleware’i ile temel hata yönetimi sağlanmıştır.
+- Güvenlik: Kimlik doğrulama ve yetkilendirme işlemleri için JWT (JSON Web Token) kullanılmıştır.
+-  Swagger UI: API endpoint'lerini dokümante etmek için projenizde Swagger etkinleştirilmiştir. Çalıştırıldığında tarayıcıda 
+    https://localhost:7012/swagger adresine giderek test edebilirsiniz.
