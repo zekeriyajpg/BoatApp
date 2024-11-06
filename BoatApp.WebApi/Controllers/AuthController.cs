@@ -86,10 +86,6 @@ namespace BoatApp.WebApi.Controllers
 
 
             });
-        }
-
-        
-        
-
+        }    
     }
 }
