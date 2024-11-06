@@ -31,7 +31,7 @@ BoatApp, çeşitli tekne verilerini yöneten ve sunan bir ASP.NET Core Web API p
     dotnet run --project BoatApp.WebApi
 4. Uygulamayı Test Eddin
 
-##Ek Bilgiler
+## Ek Bilgiler
 - Hata Yönetimi: UseExceptionHandler middleware’i ile temel hata yönetimi sağlanmıştır.
 - Güvenlik: Kimlik doğrulama ve yetkilendirme işlemleri için JWT (JSON Web Token) kullanılmıştır.
 -  Swagger UI: API endpoint'lerini dokümante etmek için projenizde Swagger etkinleştirilmiştir. Çalıştırıldığında tarayıcıda 
